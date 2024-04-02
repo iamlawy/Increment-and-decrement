@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #big{
+            width: 450px;
+            height: 400px;
+            background-color: hotpink;
+            margin: auto;
+        }
+        #username{
+            margin: 50px 0 0 50px;
+            width: 300px;
+            height: 35px;
+            border-radius: 10px;
+        }
+        #email{
+            margin-left: 50px;
+            width: 300px;
+            height: 35px;
+            border-radius: 10px;
+        }
+        #password{
+            margin-left: 50px;
+            width: 300px;
+            height: 35px;
+            border-radius: 10px;
+        }
+        #mybut{
+            margin-left: 50px;
+            width: 80px;
+            height: 30px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="big">
+    <input id="username" type="text" placeholder="Username:">
+    <br><br>
+    <input id="email" type="text" placeholder="Email:">
+    <br><br>
+    <input id="password" type="password" placeholder="Password:"> <button id="show" onclick="show()">show</button>
+    <br><br>
+    <button onclick="login()" id="mybut">Login</button>
+    </div>
+</body>
+</html>
+<script src="login.js"></script>
