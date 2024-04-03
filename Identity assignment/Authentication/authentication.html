@@ -3,90 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a68c8d50e2.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <style>
-        #big{
-            width: 600px;
-            height: 600px;
-            /* background-color: hotpink; */
-            margin: auto;
-        }
-        #myh1{
-            text-align: center;
-        }
-        #fullname{
-        width: 350px;
-        height: 40px;
-        border-radius: 10px;
-        } 
-        #email{
-            width: 350px;
-            height: 40px;
-            border-radius: 10px;
-        }
-        #password{
-            width: 350px;
-            height: 40px;
-            border-radius: 10px;
-        }
-        #confirmpassword{
-            width: 350px;
-            height: 40px;
-            border-radius: 10px;
-        }
-        #myinput{
-            margin-left: 100px;
-        }
-        #mybut{
-            margin-left: 120px;
-            width: 100px;
-            height: 40px;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="authentication.css">
 </head>
 <body>
-    <div id="big">
-        <h1 id="myh1">Signup Page</h1>
-    <form action="#" id="thing">
-        <div id="myinput">
-        <label for="fullname">Fullname</label>
-        <br>
-        <input type="text" id="fullname" placeholder="Fullname">
-        <br>
-        <label for="email">Email</label>
-        <br>
-        <input type="text" id="email" placeholder="Email:">
-        <br>
-        <label for="password">Password</label>
-        <br>
-        <input type="password" id="password" placeholder="Password"> <button id="showandhide" onclick="show()"><i id="icon" class="fa fa-eye-slash"></i></button>
-        <br>
-        <label for="confirmpassword">Confirm Password</label>
-        <br>
-        <input type="password" id="confirmpassword" placeholder="Confirm Password :"> <button id="showandhide2" onclick="showit()"><i id="icon2" class="fa fa-eye-slash"></i></button>
-        <br> <br>
-        <input type="checkbox" id="checker"> agree to the terms and conditions
-    </form>
-    <h4>Already have an account <a href="login.html">Log in</a></h4>
-    <br><br>
-    <button onclick="signup()" id="mybut">Signup</button>
+    <div id="login">
+        <div id="word">
+            <h1> User Signup</h1>
+            <p>Signup to your account!!</p>
+        </div>
+        <div id="only">
+            <input id="username" type="text" placeholder="USERNAME" required>
+            <input id="Adress" type="email" placeholder="Email Adress" required>
+          <div id="osanle">  <input id="pass" type="password" placeholder="Password"><button id="showid" onclick="showHide()"></button></div>
+            <input id="confirm" type="password" placeholder="Confirm Password" required>
+        </div>
+        <div id="account">
+            <p id="Already">Already have an accont?<a href="../login/login.html">Login</a> </p>
+            <div id="hate">
+            <input id="check" type="checkbox" required>
+            <span><a href="">I agree to the terms and conditions</a></span>
+            </div>
+        </div>
+        <div id="btn">
+           <button id="sign" onclick="signUp()"> Signup</button>
 
-    <table id="">
-        <thead>
-            <th> fullname</th>
-            <th> email</th>
-            <th> password</th>
-            <th> checked</th>
-        </thead>
-        
-        <tbody id="table">
+        </div>
+        </div>
+        <table>
+            <thead>
+                <th>fullname</th>
+                <th>email</th>
+                <th>password</th>
+                <th>checked</th>
+            </thead>
 
-        </tbody>
-    </table>
-</div>
-    </div>
+            <tbody id="table">
+
+            </tbody>
+
+        </table>
+
+    
+    
 </body>
 </html>
-<script src="authentication.js"></script> 
+<script src="authentication.js"></script>

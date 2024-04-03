@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    width: 100%;
+    height: 150vh;
+}
+#login{
+    background-color: white;
+    width: 45%;
+    height: 95vh;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+#word{
+    padding: 20px ;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: ; */
+    width: 92%;
+    height: 15vh;
+}
+#only{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#username{
+    width: 70%;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+#Adress{
+    margin-top: 20px;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 70%;
+    
+}
+#pass{
+    margin-top: 20px;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 70%;
+}
+#confirm{
+    margin-top: 20px;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 70%;
+}
+::placeholder{
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#Already{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#Already a{
+    color: black;
+    text-decoration: none;
+}
+#check{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#account a{
+    color: black;
+    text-decoration: none;
+}
+#hate{
+    margin-top: 10px;
+}
+#sign{
+    width: 220px;
+    height: 45px;
+    background-color: rgb(67, 59, 158);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 70px;
+}

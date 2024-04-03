@@ -11,9 +11,9 @@ function login() {
   if (username.value == '' || email.value == '' || password.value == '' ) {
     alert('All inputs are mandatory')
   }  else if(login) {
-    alert('account not registered')
-  } else{
     alert(`Log in successful ${username.value}`)
+  } else{
+    alert('account not registered')
   }
     
 
